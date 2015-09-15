@@ -1,30 +1,3 @@
-" シンタックスハイライトを有効化
-colorscheme molokai
-syntax on
-
-" yank（コピー）した内容をクリップボードに共有
-set clipboard=unnamed
-
-" 検索内容をハイライト
-set hlsearch
-
-" 検索で大小文字の違いを無視
-set ignorecase
-
-" タブ入力を2つの半角スペースに
-set expandtab
-set tabstop=2
-set shiftwidth=2
-
-" 改行時の自動インデント有効化
-set autoindent
-
-" インクリメンタルサーチの有効化
-set incsearch
-
-" 行番号の表示
-set number
-
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
@@ -58,3 +31,31 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
+" シンタックスハイライトを有効化
+syntax on
+colorscheme molokai
+
+" yank（コピー）した内容をクリップボードに共有
+set clipboard=unnamed
+
+" 検索内容をハイライト
+set hlsearch
+
+" 検索で大小文字の違いを無視
+set ignorecase
+
+" タブ入力を2つの半角スペースに
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" 改行時の自動インデント有効化
+set autoindent
+
+" インクリメンタルサーチの有効化
+set incsearch
+
+" 行番号の表示
+set number
+
+set laststatus=2
